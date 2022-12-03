@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="/BTVan/assets/style.css">
     <title>Nguyễn Văn Hải Long & Nguyễn Mạnh Tri Minh</title>
     <style>
-        body{
-            background-image: url('../BTVan/pexels-eberhard-grossgasteiger-2088170.jpg');
-            background-size: cover;
+        body {
+            background-color: gold;
         }
+
         .menu {
             display: flex;
             justify-content: space-around;
@@ -27,6 +27,7 @@
             box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
         }
+
         .menu1 {
             display: flex;
             justify-content: space-around;
@@ -41,6 +42,7 @@
             box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
         }
+
         .list-music {
             margin-top: 100px;
             display: flex;
@@ -129,6 +131,13 @@
             width: 97%;
             margin-top: 75px;
         }
+
+        .list-music .item-music p {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .list-music1 .item-music p{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
     </style>
 </head>
 
@@ -147,6 +156,36 @@
         <div class="item-music">
             <img src="/BTVan/tri minh.png" alt="">
             <h3>VÌ SAO - XUÂN DIỆU</h3>
+            <p>Bữa trước giêng hai dưới nắng đào,<br>
+                Nhìn tôi cô muốn hỏi “vì sao?”<br>
+                Khi tôi đến kiếm trên môi đẹp <br>
+                Một thoáng cười yêu thoả khát khao. <br>
+                <br>
+                - Vì sao giáp mặt buổi đầu tiên, <br>
+                Tôi đã đày thân giữa xứ phiền, <br>
+                Không thể vô tình qua trước cửa, <br>
+                Biết rằng gặp gỡ đã vô duyên? - <br>
+                <br>
+                Ai đem phân chất một mùi hương <br>
+                Hay bản cầm ca! Tôi chỉ thương, <br>
+                Chỉ lặng chuồi theo giòng xảm xúc <br>
+                Như thuyền ngư phủ lạc trong sương <br>
+                <br>
+                Làm sao cắt nghĩa được tình yêu! <br>
+                Có nghĩa gì đâu, một buổi chiều <br>
+                Nó chiếm hồn ta bằng nắng nhạt, <br>
+                Bằng mây nhè nhẹ, gió hiu hiu... <br>
+                <br>
+                Cô hãy là nơi mấy khóm dừa <br>
+                Dầm chân trong nước, đứng say sưa, <br>
+                Để tôi là kẻ qua sa mạc <br>
+                Tạm lánh hè gay; - thế cũng vừa. <br>
+                <br>
+                Rồi một ngày mai tôi sẽ đi.<br>
+                Vì sao, ai nỡ bỏ làm chi! <br>
+                Tôi khờ khạo lắm, ngu ngơ quá <br>
+                Chỉ biết yêu thôi, chẳng hiểu gì.
+            </p>
         </div>
         <div class="item-music1">
             <p>Trong sự nghiệp cầm bút của mình, với hơn 450 bài thơ tình để lại, Xuân Diệu đã minh chứng một điều: Tình
@@ -186,6 +225,22 @@
         <div class="item-music">
             <img src="/BTVan/hai long (1).png" alt="">
             <h3>NHỮNG GIỌT LỆ - HÀN MẶC TỬ</h3>
+            <p>
+                Trời hỡi, bao giờ tôi chết đi? <br>
+                Bao giờ tôi hết được yêu vì, <br>
+                Bao giờ mặt nhựt tan thành máu, <br>
+                Và khối lòng tôi cứng tợ si? <br>
+                <br>
+                Họ đã xa rồi khôn níu lại, <br>
+                Lòng thương chưa đã, mến chưa bưa... <br>
+                Người đi, một nửa hồn tôi mất, <br>
+                Một nửa hồn tôi bỗng dại khờ. <br>
+                <br>
+                Tôi vẫn còn đây hay ở đâu? <br>
+                Ai đem tôi bỏ dưới trời sâu? <br>
+                Sao bông phượng nở trong màu huyết, <br>
+                Nhỏ xuống lòng tôi những giọt châu? <br>
+            </p>
         </div>
     </div>
     <ul class="menu1" style="list-style-type: none;">
@@ -200,11 +255,11 @@
         function alert() {
             alert("Error!!!");
         }
-        function visibleHAILONG(){
+        function visibleHAILONG() {
             document.querySelector('.list-music').style.visibility = "hidden";
             document.querySelector('.list-music1').style.visibility = "visible";
         }
-        function visibleTRIMINH(){
+        function visibleTRIMINH() {
             document.querySelector('.list-music1').style.visibility = "hidden";
             document.querySelector('.list-music').style.visibility = "visible";
         }
